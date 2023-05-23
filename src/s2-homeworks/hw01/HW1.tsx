@@ -25,8 +25,8 @@ export const message0: MessageType = {
         name: "Some Name",
     },
     message: {
-        text: "some text some text some text some text some text some text some text",
-        time: "22:00",
+        text: "Hello, she didn’t do anything and rested all day, how are you?",
+        time: "09:00",
     },
 }
 export const friendMessage0: MessageType = {
@@ -36,15 +36,15 @@ export const friendMessage0: MessageType = {
         name: "Friend Name",
     },
     message: {
-        text: "зеркальное сообщение для тренировки css",
-        time: "22:00",
+        text: "Hello, how are you, what did you do yesterday?",
+        time: "09:02",
     },
 }
 
 const HW1 = () => {
     return (
         <div id={"hw1"}>
-            <div className={s2.hwTitle}>Homework #1</div>
+            <div className={s2.hwTitle}>HomeTask № 1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>

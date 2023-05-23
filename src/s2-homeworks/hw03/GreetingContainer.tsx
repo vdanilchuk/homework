@@ -1,6 +1,5 @@
 import React, { ChangeEvent, KeyboardEvent, useState } from 'react'
 import Greeting from './Greeting'
-import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
     users: any // need to fix any
